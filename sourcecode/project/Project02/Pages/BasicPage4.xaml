@@ -1,0 +1,73 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:Project02="clr-namespace:Project02" x:Class="Project02.Pages.BasicPage4"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="76,-23,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="7">
+            <Rectangle />
+            <TextBlock x:Name="Header" Text="未匹配到下单软件" Margin="-10,0,10,0" />
+        </Grid>
+        <Label Content="股票代码" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <Label Content="购买价格" HorizontalAlignment="Left" Height="30" Margin="0,2,0,0" Grid.Row="2" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Grid.RowSpan="2"/>
+        <Label Content="购买数量" HorizontalAlignment="Left" Height="30" Grid.Row="4" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <Label Content="交易方式" HorizontalAlignment="Left" Height="30" Grid.Row="5" VerticalAlignment="Top" Width="90" Grid.RowSpan="2" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Margin="0,10,0,0"/>
+        <TextBox x:Name="buycode" Grid.Column="2" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Margin="0,1,0,0"/>
+        <TextBox x:Name="buyprice" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="0,2,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Grid.RowSpan="2"/>
+        <TextBox x:Name="buyamount" Grid.Column="2" HorizontalAlignment="Left" Height="30" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Margin="0,1,0,0"/>
+        <Button x:Name="PPbutton" Content="匹配软件" HorizontalAlignment="Left" Height="30" Grid.Row="8" VerticalAlignment="Top" Width="90" Click="PPbutton_Click" Margin="0,1,0,0"/>
+        <Button x:Name="AutoButton" Content="快速下单" Grid.Column="2" HorizontalAlignment="Left" Height="30" Grid.Row="8" VerticalAlignment="Top" Width="90" Click="AutoButton_Click" Margin="0,1,0,0"/>
+        <ListView Name="listview1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="198" Grid.RowSpan="9" VerticalAlignment="Top" Width="400" Grid.Column="4">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="股票代码" DisplayMemberBinding="{Binding Code}" Width="auto" />
+                    <GridViewColumn Header="股票名称" DisplayMemberBinding="{Binding Name}" Width="auto" />
+                    <GridViewColumn Header="交易价格" DisplayMemberBinding="{Binding WatchPrice}" Width="auto" />
+                    <GridViewColumn Header="购买数量" DisplayMemberBinding="{Binding Amount}" Width="auto" />
+                    <GridViewColumn Header="时间"     DisplayMemberBinding="{Binding Time}" Width="auto" />
+                    <GridViewColumn Header="交易方式" DisplayMemberBinding="{Binding State}" Width="auto" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ComboBox Name="SelectDealState" Grid.Column="2" HorizontalAlignment="Left" Height="30" Grid.Row="6" VerticalAlignment="Top" Width="120"  
+                DisplayMemberPath="Name"  
+                SelectedValuePath="ID" Grid.ColumnSpan="3" Margin="0,1,0,0"/>
+    </Grid>
+</UserControl>

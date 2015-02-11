@@ -1,0 +1,23 @@
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Release\form.exe
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Release\form.pdb
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Release\ClassofConnect.dll
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Release\ClassofConnect.pdb
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\form.Form1.resources
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\form.Properties.Resources.resources
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\form.exe
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\form.pdb
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Release\System.Windows.Forms.ListViewNF.resources
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\bin\Release\form.exe
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\bin\Release\form.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\bin\Release\ClassofConnect.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\bin\Release\ClassofConnect.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\obj\x86\Release\form.csprojResolveAssemblyReference.cache
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\obj\x86\Release\form.Form1.resources
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\obj\x86\Release\System.Windows.Forms.ListViewNF.resources
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\obj\x86\Release\form.Properties.Resources.resources
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\obj\x86\Release\form.csproj.GenerateResource.Cache
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\obj\x86\Release\form.exe
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\form\obj\x86\Release\form.pdb

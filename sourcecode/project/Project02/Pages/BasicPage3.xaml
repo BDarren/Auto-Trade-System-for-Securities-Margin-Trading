@@ -1,0 +1,147 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:controls="clr-namespace:AutoCompleteComboBox.Controls"
+             xmlns:Project02="clr-namespace:Project02" x:Class="Project02.Pages.BasicPage3"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1000">
+
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="0,1,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="14" Height="16" Width="120" Grid.ColumnSpan="2">
+            <Rectangle />
+            <TextBlock x:Name="Header" Text="未匹配到下单软件" />
+        </Grid>
+        <Button x:Name="SearchButton" Content="查询" Grid.Column="2" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="70" Click="SearchButton_Click" Margin="0,0,0,0"/>
+        <ListView x:Name="listview1" HorizontalAlignment="Left" Height="250" VerticalAlignment="Top" Width="210"  MinWidth="190" SelectionChanged="listview1_SelectionChanged" RenderTransformOrigin="0.598,1.974" Grid.Row="3" Grid.ColumnSpan="3" Grid.RowSpan="12" Margin="0,0,0,0" MouseLeave="listview1_MouseLeave">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Width="50" />
+                    <GridViewColumn Header="价格" DisplayMemberBinding="{Binding Price}" Width="50"/>
+                    <GridViewColumn Header="成交股票数" DisplayMemberBinding="{Binding Amount}" Width="90"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label x:Name="LabelOfTime" Content="更新时间" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="141,0,0,0" Grid.Row="2" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Grid.ColumnSpan="3"/>
+        <Label x:Name="StokeName" Content="股票名称" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="66" Grid.Row="2" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <Label Content="股票代码" Grid.Column="4" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <Label Content="购买价格" Grid.Column="4" HorizontalAlignment="Center" Height="30" Grid.Row="2" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <Label Content="购买数量" Grid.Column="4" HorizontalAlignment="Center" Height="30" Grid.Row="4" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <TextBox x:Name="buycode" Grid.Column="6" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Margin="0,0,30,0"  KeyDown="buycode_KeyDown"/>
+        <TextBox x:Name="buyprice" Grid.Column="6" HorizontalAlignment="Left" Height="30" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" KeyDown="buyprice_KeyDown"/>
+        <TextBox x:Name="buyamount" Grid.Column="6" HorizontalAlignment="Left" Height="30" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"  KeyDown="buyamount_KeyDown"/>
+        <Button x:Name="PPbutton" Content="匹配软件" Grid.Column="8" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Click="PPbutton_Click" Margin="0,1,0,0"/>
+        <controls:AutoCompleteComboBox x:Name="StokeCode" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Margin="0,0,0,0" Width="0"/>
+        <ComboBox x:Name="SelectDealState1" Grid.Column="6" HorizontalAlignment="Left" Height="30" Grid.Row="6" VerticalAlignment="Top" Width="120"  
+        	DisplayMemberPath="Name"  
+        	SelectedValuePath="ID"/>
+        <ComboBox x:Name="SelectDealState2" Grid.Column="6" HorizontalAlignment="Left" Height="30" Grid.Row="8" VerticalAlignment="Top" Width="120"  
+        	DisplayMemberPath="Name"  
+        	SelectedValuePath="ID"/>
+        <Button Name="buy" Content="买入" Grid.Column="4" HorizontalAlignment="Left" Height="30" Grid.Row="6" VerticalAlignment="Top" Width="90" Click="buy_Click"/>
+        <Button Name="sell" Content="卖出" Grid.Column="4" HorizontalAlignment="Left" Height="30" Grid.Row="8" VerticalAlignment="Top" Width="90" Click="sell_Click"/>
+        <ListView Name="listview2" Grid.ColumnSpan="12" HorizontalAlignment="Center" Height="134" Grid.RowSpan="5" VerticalAlignment="Top" Width="717" Grid.Column="4" Grid.Row="10" Margin="1,1,31,0" SelectionChanged="listview2_SelectionChanged" MouseLeave="listview2_MouseLeave">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="序号" DisplayMemberBinding="{Binding Path=Number}"  Width="auto" />
+                    <GridViewColumn Header="股票代码" DisplayMemberBinding="{Binding Path=Code}" Width="auto" />
+                    <GridViewColumn Header="股票名称" DisplayMemberBinding="{Binding Path=Name}" Width="auto" />
+                    <GridViewColumn Header="交易价格" DisplayMemberBinding="{Binding Path=Price}" Width="auto" />
+                    <GridViewColumn Header="当前价格" DisplayMemberBinding="{Binding Path=Current}" Width="auto" />
+                    <GridViewColumn Header="购买数量" DisplayMemberBinding="{Binding Path=Amount}" Width="auto" />
+                    <GridViewColumn Header="时间"     DisplayMemberBinding="{Binding Path=Time}" Width="auto" />
+                    <GridViewColumn Header="交易方式" DisplayMemberBinding="{Binding Path=State}" Width="auto" />
+                    <GridViewColumn Header="盈亏"     DisplayMemberBinding="{Binding Path=Profit}" Width="150" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Name="cancelbuy" Content="撤买" Grid.Column="8" HorizontalAlignment="Left" Height="30" Grid.Row="6" VerticalAlignment="Top" Width="90" Click="cancelbuy_Click"/>
+        <Button Name="cancelsell" Content="撤卖" Grid.Column="8" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Top" Width="90" Height="30" Click="cancelsell_Click"/>
+        <ListView x:Name="listview3" Grid.ColumnSpan="9" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="500" Grid.Row="16" SelectionChanged="listview3_SelectionChanged" MouseLeave="listview3_MouseLeave">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="股票代码" DisplayMemberBinding="{Binding Code}" Width="auto" />
+                    <GridViewColumn Header="股票名称" DisplayMemberBinding="{Binding Name}" Width="auto" />
+                    <GridViewColumn Header="交易价格" DisplayMemberBinding="{Binding Price}" Width="auto" />
+                    <GridViewColumn Header="购买数量" DisplayMemberBinding="{Binding Amount}" Width="auto" />
+                    <GridViewColumn Header="时间"     DisplayMemberBinding="{Binding Time}" Width="auto" />
+                    <GridViewColumn Header="交易方式" DisplayMemberBinding="{Binding State}" Width="auto" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="历史记录" HorizontalAlignment="Center" Height="30" Grid.Row="15" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Margin="0,0,61,0"/>
+        <TextBox x:Name="watchpricebig" Grid.Column="12" HorizontalAlignment="Left" Height="30" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" KeyDown="watchpricebig_KeyDown"/>
+        <TextBox x:Name="watchpricesmall" Grid.Column="12" HorizontalAlignment="Left" Height="30" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" KeyDown="watchpricesmall_KeyDown"/>
+        <Label Content="价格>=" Grid.Column="10" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Grid.Row="2"/>
+        <Label Content="价格&lt;=" Grid.Column="10" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Grid.Row="4"/>
+        <Button x:Name="Autokc" Content="自动开仓" Grid.Column="10" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="0,1,0,0" Click="Autokc_Click"/>
+        <Button x:Name="Autopc" Content="自动平仓" Grid.Column="10" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="1,0,0,0" Grid.ColumnSpan="2" Grid.Row="6" Click="Autopc_Click"/>
+        <Label Content="止盈差价>=" Grid.Column="14" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Grid.Row="6"/>
+        <Label Content="止损差价&lt;=" Grid.Column="14" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Grid.Row="8"/>
+        <TextBox x:Name="zycj" Grid.Column="15" HorizontalAlignment="Left" Height="30" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" KeyDown="zycj_KeyDown"/>
+        <TextBox x:Name="zscj" Grid.Column="15" HorizontalAlignment="Left" Height="30" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" KeyDown="zscj_KeyDown"/>
+        <Label Content="平仓序号" Grid.Column="10" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="90" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Grid.Row="8" Margin="1,0,0,0"/>
+        <TextBox x:Name="pcnumber" Grid.Column="12" HorizontalAlignment="Left" Height="30" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" KeyDown="pcnumber_KeyDown"/>
+        <RadioButton Name="radio1" Content="做多" Grid.Column="14" HorizontalAlignment="Left" Height="30" Grid.Row="2" VerticalAlignment="Top" Width="90" GroupName="1"/>
+        <RadioButton Name="radio2" Content="做空" Grid.Column="15" HorizontalAlignment="Left" Height="30" Grid.Row="2" VerticalAlignment="Top" Width="90" GroupName="1"/>
+        <RadioButton Name="radio3" Content="做多" Grid.Column="14" HorizontalAlignment="Left" Height="30" Grid.Row="4" VerticalAlignment="Top" Width="90" GroupName="2"/>
+        <RadioButton Name="radio4" Content="做空" Grid.Column="15" HorizontalAlignment="Left" Height="30" Grid.Row="4" VerticalAlignment="Top" Width="90" GroupName="2"/>
+        <mui:ModernButton IconData="F1 M 24,13C 27.1521,13 29.9945,14.3258 32,16.4501L 32,11L 35,14L 35,22L 27,22L 24,19L 29.5903,19C 28.217,17.4656 26.2212,16.5 24,16.5C 20.1969,16.5 17.055,19.3306 16.5661,23L 13.0448,23C 13.5501,17.3935 18.262,13 24,13 Z M 24,31.5C 27.8031,31.5 30.945,28.6694 31.4339,25L 34.9552,25C 34.4499,30.6065 29.738,35 24,35C 20.8479,35 18.0055,33.6742 16,31.5499L 16,37L 13,34L 13,26L 21,26L 24,29L 18.4097,29C 19.783,30.5344 21.7787,31.5 24,31.5 Z" Grid.Row="15" Click="ModernButton_Click_1" Margin="90,0,0,1" />
+        <Label Content="佣金费率" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Grid.Row="15" Grid.Column="14" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <TextBox x:Name="yjfl" Grid.Column="15" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0.001" VerticalAlignment="Top" Width="70" Margin="0,2,0,0" Grid.Row="15" TextChanged="yjfl_TextChanged" />
+        <Label Content="印花税率" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Grid.Row="16" Grid.Column="14" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <TextBox x:Name="yhsl" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0.001" VerticalAlignment="Top" Width="70" Margin="0,2,0,0" Grid.Row="16" Grid.Column="15" TextChanged="yhsl_TextChanged"/>
+        <Label Content="融资利息" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="0,30,0,0" Grid.Row="16" Grid.Column="14" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <TextBox x:Name="rzlx" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0.08" VerticalAlignment="Top" Width="70" Margin="0,32,0,0" Grid.Row="16" Grid.Column="15" TextChanged="rzlx_TextChanged"/>
+        <Label Content="融资天数" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="0,60,0,0" Grid.Row="16" Grid.Column="14" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <TextBox x:Name="rzts" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="70" Margin="0,62,0,0" Grid.Row="16" Grid.Column="15" TextChanged="rzts_TextChanged"/>
+        <Label Content="融券利息" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="0,90,0,0" Grid.Row="16" Grid.Column="14" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <TextBox x:Name="rqlx" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0.08" VerticalAlignment="Top" Width="70" Margin="0,92,0,0" Grid.Row="16" Grid.Column="15" TextChanged="rqlx_TextChanged"/>
+        <Label Content="融券天数" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="0,120,0,0" Grid.Row="16" Grid.Column="14" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}"/>
+        <TextBox x:Name="rqts" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="70" Margin="0,122,0,0" Grid.Row="16" Grid.Column="15" TextChanged="rqts_TextChanged"/>
+        <Label Name="Sum" Content="总盈亏：" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="192" Grid.Row="15" Grid.Column="10" Foreground="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Project02:MainWindow}}}" Margin="1,1,0,0" Grid.ColumnSpan="3"/>
+    </Grid>
+</UserControl>

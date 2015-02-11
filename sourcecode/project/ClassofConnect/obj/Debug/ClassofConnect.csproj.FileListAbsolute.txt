@@ -1,0 +1,5 @@
+c:\users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\bin\Debug\ClassofConnect.dll
+c:\users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\bin\Debug\ClassofConnect.pdb
+c:\users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\obj\Debug\ResolveAssemblyReference.cache
+c:\users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\obj\Debug\ClassofConnect.dll
+c:\users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\obj\Debug\ClassofConnect.pdb

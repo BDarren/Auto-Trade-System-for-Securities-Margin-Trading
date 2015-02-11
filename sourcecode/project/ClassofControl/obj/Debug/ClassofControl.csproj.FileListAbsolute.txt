@@ -1,0 +1,10 @@
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofControl\bin\Debug\ClassofControl.dll
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofControl\bin\Debug\ClassofControl.pdb
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofControl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofControl\obj\Debug\ClassofControl.dll
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofControl\obj\Debug\ClassofControl.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\bin\Debug\ClassofControl.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\bin\Debug\ClassofControl.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\obj\Debug\ResolveAssemblyReference.cache
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\obj\Debug\ClassofControl.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\obj\Debug\ClassofControl.pdb

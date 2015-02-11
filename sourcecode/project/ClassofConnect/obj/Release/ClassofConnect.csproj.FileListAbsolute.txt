@@ -1,0 +1,10 @@
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\bin\Release\ClassofConnect.dll
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\bin\Release\ClassofConnect.pdb
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\obj\Release\ResolveAssemblyReference.cache
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\obj\Release\ClassofConnect.dll
+C:\Users\wjj\documents\visual studio 2010\Projects\item\ClassofConnect\obj\Release\ClassofConnect.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofConnect\bin\Release\ClassofConnect.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofConnect\bin\Release\ClassofConnect.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofConnect\obj\Release\ClassofConnect.csprojResolveAssemblyReference.cache
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofConnect\obj\Release\ClassofConnect.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofConnect\obj\Release\ClassofConnect.pdb

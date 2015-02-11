@@ -1,0 +1,11 @@
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Debug\form.exe
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Debug\form.pdb
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Debug\ClassofConnect.dll
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\bin\Debug\ClassofConnect.pdb
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Debug\form.Form1.resources
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Debug\form.Properties.Resources.resources
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Debug\form.exe
+C:\Users\wjj\documents\visual studio 2010\Projects\item\form\obj\x86\Debug\form.pdb

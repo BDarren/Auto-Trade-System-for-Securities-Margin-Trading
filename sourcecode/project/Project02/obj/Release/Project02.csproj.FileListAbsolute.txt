@@ -1,0 +1,47 @@
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\Stock.mdf
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\Stock_log.ldf
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\Project02.exe.config
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\Project02.exe
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\Project02.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\ClassofConnect.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\ClassofControl.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\FirstFloor.ModernUI.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\Microsoft.Windows.Shell.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\ClassofConnect.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\ClassofControl.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\bin\Release\FirstFloor.ModernUI.xml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Project02.csprojResolveAssemblyReference.cache
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage2.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\MainWindow.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Content\About.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Content\SettingsAppearance.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\Home.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\Settings.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\App.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Content\set.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Controls\AutoCompleteComboBox.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage2.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\MainWindow.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Content\About.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Content\SettingsAppearance.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage1.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage3.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage4.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\Home.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\Settings.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\App.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Project02_Content.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Project02_MarkupCompile.cache
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Project02_MarkupCompile.lref
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Content\set.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Controls\AutoCompleteComboBox.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage1.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage3.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Pages\BasicPage4.baml
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Project02.g.resources
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Project02.exe
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\Project02\obj\Release\Project02.pdb
+H:\ruanda2\item\Project02\bin\Release\Project02.exe.config
+H:\ruanda2\item\Project02\obj\Release\Project02.exe
+H:\ruanda2\item\Project02\obj\Release\Project02.pdb

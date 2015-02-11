@@ -1,0 +1,5 @@
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\bin\Release\ClassofControl.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\bin\Release\ClassofControl.pdb
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\obj\Release\ClassofControl.csprojResolveAssemblyReference.cache
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\obj\Release\ClassofControl.dll
+E:\documents and settings\suninig\my documents\Visual Studio 2010\Projects\item\ClassofControl\obj\Release\ClassofControl.pdb
